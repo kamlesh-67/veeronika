@@ -1,0 +1,158 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* background-color: #E0FFFF; */
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+    body {
+        background-color: #FFF0F5;
+
+    }
+
+    .hero {
+        position: relative;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        height: 160vh;
+    }
+
+    .ganeshjiTagLine {
+        height: fit-content;
+        width: fit-content;
+        margin-bottom: 151px;
+        margin: 0px auto;
+        color: #b17b4e;
+        font-weight: bold;
+        font-size: 28px;
+
+
+    }
+
+    .TagLineani {
+        -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) backwards;
+    }
+
+
+    .brideContainer {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70vh;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .brideContainer img {
+        height: 60vh;
+    }
+
+    .brideContainer p {
+        font-size: 32px;
+        text-transform: capitalize;
+        color: #b88637;
+        font-family: 'Arizonia', cursive;
+        -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    .brideContainer h1 {
+        font-size: 62px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: -50px;
+        text-transform: capitalize;
+        color: #e55081;
+        font-family: 'Arizonia', cursive;
+    }
+
+
+
+    .groonContainer {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70vh;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .groonContainer img {
+        height: 60vh;
+    }
+
+    .groonContainer p {
+        margin-left: 10px;
+        font-size: 32px;
+        text-transform: capitalize;
+        color: #b88637;
+        font-family: 'Arizonia', cursive;
+        -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    .groonContainer h1 {
+        font-size: 62px;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        text-transform: capitalize;
+        color: #e55081;
+        font-family: 'Arizonia', cursive;
+    }
+
+    section {
+        position: relative;
+    }
+
+    #vanue {
+        margin: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #vanue img {
+        height: 60vh;
+    }
+
+    #vanue p {
+        margin-top: 100px;
+        position: absolute;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #vanue p a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #000000;
+
+    }
+
+    .endingtagLine {
+        margin: 0 auto;
+        height: 100px;
+        width: 400px;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Alkatra', cursive;
+        color: #e55081;
+        margin-top: -150px;
+        margin-bottom: 200px;
+    }
+
+    .functionContainer .table {
+        position: absolute;
+        /* height: 00px; */
+
+    }
+
+    .functionContainer caption {
+        font-size: 42px;
+    }
+    .functionContainer td{
+        font-size: 20px;
+    }
