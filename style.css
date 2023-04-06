@@ -9,17 +9,17 @@
 
     body {
         background-color: #FFF0F5;
+        width: 100vw;
 
     }
 
     .hero {
         position: relative;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
-        height: 160vh;
-    }
+        height: 110vh;
+        margin-top: 100px;
 
+    }
+    
     .ganeshjiTagLine {
         height: fit-content;
         width: fit-content;
@@ -28,7 +28,6 @@
         color: #b17b4e;
         font-weight: bold;
         font-size: 28px;
-
 
     }
 
@@ -43,11 +42,12 @@
         justify-content: space-evenly;
         height: 70vh;
         align-items: center;
-        margin: 10px 0;
+        width: 100%;
+        /* margin: 10px 0; */
     }
 
     .brideContainer img {
-        height: 60vh;
+        height: 40vh;
     }
 
     .brideContainer p {
@@ -57,6 +57,7 @@
         font-family: 'Arizonia', cursive;
         -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
     }
 
     .brideContainer h1 {
@@ -80,7 +81,7 @@
     }
 
     .groonContainer img {
-        height: 60vh;
+        height: 40vh;
     }
 
     .groonContainer p {
@@ -115,7 +116,7 @@
     }
 
     #vanue img {
-        height: 60vh;
+        height: 45vh;
     }
 
     #vanue p {
@@ -134,14 +135,14 @@
 
     .endingtagLine {
         margin: 0 auto;
-        height: 100px;
+        height: 80vh;
         width: 400px;
         text-align: center;
         font-size: 24px;
         font-family: 'Alkatra', cursive;
         color: #e55081;
-        margin-top: -150px;
-        margin-bottom: 200px;
+        margin-top: 170px;
+        /* margin-bottom: 400px; */
     }
 
     .functionContainer .table {
@@ -155,4 +156,71 @@
     }
     .functionContainer td{
         font-size: 20px;
+    }
+
+    
+    .functionContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .functionContainer img {
+        height: 100vh;
+    }
+
+    body {
+        background-color: #FFF0F5;
+        /* overflow: hidden; */
+        overflow-x: hidden;
+    }
+
+    #frontcontainer {
+        height: 100vh;
+        width: 100vw;
+        /* display: flex; */
+        /* justify-content: flex-end; */
+        margin-bottom: 100px;
+
+    }
+
+    #frontcontainer img {
+        position: absolute;
+        /* top: 0; */
+        bottom: 0;
+        /* height: 100vh; */
+        width: 150vw;
+    }
+
+    #frontcontainer #box {
+        position: absolute;
+        text-align: center;
+        margin-right: 200px;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 200px;
+    }
+
+
+    /* .front .head {
+        text-align: center;
+    } */
+
+    #frontcontainer p {
+        font-family: 'Great Vibes', cursive;
+        color: #b88637;
+        text-transform: capitalize;
+        font-size: 68px;
+        /* line-height: 50px; */
+    }
+
+    #frontcontainer p:nth-child(1) {
+        /* text-align: left; */
+        /* margin-right: -1000px; */
+        /* top: 300px; */
+    }
+
+    #frontcontainer p:nth-child(2) {
+        /* text-align: right; */
+        margin-left: 150px;
     }
