@@ -17,6 +17,9 @@
         position: relative;
         height: 110vh;
         margin-top: 100px;
+        display: grid;
+        justify-content: center;
+
 
     }
     
@@ -30,7 +33,9 @@
         font-size: 28px;
 
     }
-
+.ganeshji{
+    margin: 0 auto;
+}
     .TagLineani {
         -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) backwards;
