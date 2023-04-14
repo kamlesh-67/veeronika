@@ -141,7 +141,7 @@
     .endingtagLine {
         margin: 0 auto;
         height: 80vh;
-        width: 400px;
+        width: 340px;
         text-align: center;
         font-size: 24px;
         font-family: 'Alkatra', cursive;
@@ -171,7 +171,7 @@
     }
 
     .functionContainer img {
-        height: 100vh;
+        height: 70vh;
     }
 
     body {
@@ -226,5 +226,5 @@
 
     #frontcontainer p:nth-child(2) {
         /* text-align: right; */
-        margin-left: 150px;
+        margin-left: 100px;
     }
