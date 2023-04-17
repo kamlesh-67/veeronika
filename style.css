@@ -15,7 +15,7 @@
 
     .hero {
         position: relative;
-        height: 110vh;
+        /* height: 110vh; */
         margin-top: 100px;
         display: grid;
         justify-content: center;
